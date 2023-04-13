@@ -1,0 +1,28 @@
+@import url(/styles/landing_page.css);
+@import url(/styles/produtos.css);
+@import url(/styles/marcas.css);
+@import url(/styles/contato.css);
+
+
+:root {
+    --branco: #FFFFFF;
+    --cor1: #FFFADA;
+    --cor2: #CCB9B1;
+    --cor3: #C08267;
+    --cor4: #A0583C;
+    --fonte-padrao: 'Poppins', sans-serif;
+    --fonte-logo: 'Alkatra', cursive;
+    --fonte-titulo: 'Roboto', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--cor1);
+    font-family: var(--fonte-padrao);
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 500;
+}

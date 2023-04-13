@@ -1,0 +1,26 @@
+.linhas-2 {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 6em;
+    padding-top: 6em;
+}
+
+.linha-esquerda-2,
+.linha-direita-2 {
+    width: 35%;
+    border: 4px solid var(--cor4);
+    border-radius: 5px;
+}
+
+.produtos__titulo-2 {
+    color: var(--cor3);
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.marcas__lista {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10em;
+}
